@@ -1,28 +1,30 @@
-# Mobile Programming Practicals
+# Unit 2 - Introduction to Android Programming
 
-Hands on with Android Studio for native Android app development for BCA 6th Semester  
-Repo broken down into different branches in units for course related topics  
-Main branch is a bare project
+The process of developing Android application using native tools  
+Android is a Linux based mobile OS maintained by Google (OHA)  
+Android Open Source Project (AOSP) is the root of all android based systems
 
 # Unit Coverage
 
-What each unit covers:
-
-- Unit 1: Introduction to MP
-- Unit 2: Basic Layout
-- Unit 3: User Interface
-- Unit 4: Android Activity
-- Unit 5: UI Fragments, Menus and Dialogs
-- unit 6: ListView, GridView and RecyclerView
-- Unit 7: Advanced Android Concepts
-
-# Development Setup
-
-### Prerequisites
+```
+Introduction and history
+Environment setup
+Creating an empty project
+Basic layout, resources and activity
+Running on device/emulator
+```
+# History of Android
 
 ```
-- Android Studio
-- Android SDK
-- Gradle
-- JDK
+Andy Rubin founded Android Inc in Palo Alto, California, United States in 2003  
+
+Shifted to mobile OS from digital camera OS from 2004  
+
+Android is the nickname of Andy Rubin  
+
+Google acquired Android in 2005 and formed OHA  
+
+Android OS was publicly revealed as a beta version on Nov 5, 2007  
+
+The first Android mobile phone was launched in 2008 (HTC Dream)  
 ```
