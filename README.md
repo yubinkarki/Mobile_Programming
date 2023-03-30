@@ -16,6 +16,7 @@ Development approaches
 Brief on front-end and back-end development
 Software Development Lifecycle (SDLC)
 ```
+
 # [History of Mobile Devices](https://www.uswitch.com/mobiles/guides/history-of-mobile-phones/#:~:text=Mobile%20phones%20were%20invented%20as,the%20emergency%20services%20to%20communicate)
 
 ```
@@ -33,5 +34,14 @@ Software Development Lifecycle (SDLC)
 
 2007: The iPhone debuted
 
-2008: The first Android phone turned up, in the form of the T-Mobile G1 (HTC Dream)
+2008: The first Android phone turned up, in T-Mobile G1 (HTC Dream)
 ```
+
+# Mobile Operating Systems
+
+- Android (Google)
+- iOS (Apple)
+- Windows Mobile (Microsoft)
+- Palm OS (Palm)
+- Symbian OS (Symbian)
+- HarmonyOS (Huawei)
