@@ -7,14 +7,15 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center_horizontal"
-        android:text="Hello"
+        android:layout_gravity="start"
+        android:text="@string/text_first_name"
         android:textSize="80sp" />
 
     <TextView
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello"
+        android:layout_gravity="end"
+        android:text="@string/text_last_name"
         android:textSize="80sp" />
 
     <LinearLayout
@@ -32,12 +33,12 @@
             <CheckBox
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="@string/text_option1" />
+                android:text="@string/text_checkbox_1" />
 
             <CheckBox
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Option 2" />
+                android:text="@string/text_checkbox_2" />
         </LinearLayout>
 
         <Space
@@ -54,12 +55,12 @@
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Option 3" />
+                android:text="@string/text_radio_1" />
 
             <RadioButton
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Option 4" />
+                android:text="@string/text_radio_2" />
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
