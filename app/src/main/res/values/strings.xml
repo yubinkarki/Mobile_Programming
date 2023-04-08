@@ -6,4 +6,5 @@
     <string name="text_checkbox_2">Checkbox 2</string>
     <string name="text_radio_1">Radio 1</string>
     <string name="text_radio_2">Radio 2</string>
+    <string name="placeholder_full_name">Enter your full name</string>
 </resources>
