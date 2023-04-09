@@ -78,7 +78,7 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="350dp"
         android:src="@drawable/ic_launcher_background" />
 
     <View
