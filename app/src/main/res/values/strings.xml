@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">MobileProgramming</string>
+    <string name="text_first_name">Yubin</string>
+    <string name="text_last_name">Karki</string>
+    <string name="text_checkbox_1">Checkbox 1</string>
+    <string name="text_checkbox_2">Checkbox 2</string>
+    <string name="text_radio_1">Radio 1</string>
+    <string name="text_radio_2">Radio 2</string>
+    <string name="placeholder_full_name">Enter your full name</string>
 </resources>
