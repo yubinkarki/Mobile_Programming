@@ -2,7 +2,6 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="horizontal"
     android:weightSum="10">
 
     <TextView
@@ -22,7 +21,7 @@
         android:gravity="center"
         android:text="Test 2"
         android:textSize="35sp" />
-Exp
+
     <TextView
         android:layout_width="0dp"
         android:layout_height="match_parent"
