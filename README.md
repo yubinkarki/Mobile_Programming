@@ -1,28 +1,24 @@
-# Mobile Programming Practicals
+# Unit 3 - Designing the UI
 
-Hands on with Android Studio for native Android app development for BCA 6th Semester  
-Repo broken down into different branches in units for course related topics  
-Main branch is a bare project
+The user interface is the point at which human users interact with a computer, website or application  
+The goal of effective UI is to make the user's experience easy and intuitive
+
 
 # Unit Coverage
 
-What each unit covers:
+```
+View hierarchy
+Explore more layout and view widgets
+Event handling
+Drawables
+```
 
-- Unit 1: Introduction to MP
-- Unit 2: Basic Layout
-- Unit 3: User Interface
-- Unit 4: Android Activity
-- Unit 5: UI Fragments, Menus and Dialogs
-- unit 6: ListView, GridView and RecyclerView
-- Unit 7: Advanced Android Concepts
-
-# Development Setup
-
-### Prerequisites
+# Layout Types
 
 ```
-- Android Studio
-- Android SDK
-- Gradle
-- JDK
+LinearLayout
+RelativeLayout
+ConstraintLayout
+TableLayout
+AbsoluteLayout
 ```
