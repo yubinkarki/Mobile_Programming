@@ -8,6 +8,12 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="gray">#D7DBD8</color>
+    <color name="light_gray">#B0B0B0</color>
+    <color name="lighter_gray">#DCDCDC</color>
+    <color name="faint_gray">#D3D3D3</color>
+    <color name="fainter_gray">#CAC9C9</color>
+    <color name="dark_gray">#A09F9F</color>
     <color name="damp_green">#7FAD9C</color>
     <color name="almost_yellow">#DBD887</color>
+    <color name="medium_green">#23751C</color>
 </resources>

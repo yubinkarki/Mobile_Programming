@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">MobileProgramming</string>
+    <string name="app_name">Mobile</string>
     <string name="text_first_name">Yubin</string>
     <string name="text_last_name">Karki</string>
     <string name="text_checkbox_1">Checkbox 1</string>
@@ -7,4 +7,19 @@
     <string name="text_radio_1">Radio 1</string>
     <string name="text_radio_2">Radio 2</string>
     <string name="placeholder_full_name">Enter your full name</string>
+    <string name="spinner_prompt">Select an item</string>
+
+    <string-array name="spinner_items">
+        <item>Item 1</item>
+        <item>Item 2</item>
+        <item>Item 3</item>
+        <item>Item 4</item>
+    </string-array>
+
+    <string-array name="country_list">
+        <item>Nepal</item>
+        <item>India</item>
+        <item>China</item>
+        <item>Japan</item>
+    </string-array>
 </resources>
