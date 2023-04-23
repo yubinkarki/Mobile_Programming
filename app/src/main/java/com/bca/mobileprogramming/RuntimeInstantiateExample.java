@@ -9,7 +9,7 @@ import android.widget.EditText;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-public class RuntimeInstantiateExample extends Activity{
+public class RuntimeInstantiateExample extends Activity {
     TextView tv;
     EditText et;
     LinearLayout ll;
@@ -19,12 +19,13 @@ public class RuntimeInstantiateExample extends Activity{
         super.onCreate(savedInstanceState);
 
         ll = new LinearLayout(this);
-        ll.setOrientation(android.widget.LinearLayout.VERTICAL);
-        ll.setLayoutParams(new ViewGroup.LayoutParams(-1, -1));
+        ll.setPadding(100, 100, 100, 100);
+        ll.setOrientation(LinearLayout.VERTICAL);
+        ll.setLayoutParams(new ViewGroup.LayoutParams(-1, -2));
         ll.setBackgroundColor(0x77008080);
 
         tv = new TextView(this);
-        tv.setLayoutParams(new ViewGroup.LayoutParams(-1, 200));
+        tv.setLayoutParams(new ViewGroup.LayoutParams(-1, 100));
         tv.setText("This is text.");
         tv.setBackgroundColor(0x5500ff00);
         ll.addView(tv);
@@ -36,8 +37,10 @@ public class RuntimeInstantiateExample extends Activity{
         ll.addView(et);
 
         Button btn = new Button(this);
+        btn.setLayoutParams(new ViewGroup.LayoutParams(-1, -2));
         btn.setText("Save");
         btn.setOnClickListener(new Button.OnClickListener() {
+            @Override
             public void onClick(View v) {
                 tv.setText(et.getText().toString());
             }
