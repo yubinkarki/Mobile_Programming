@@ -17,8 +17,6 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 public class ConstraintExample extends Activity {
     @Override
     public void onCreate(Bundle b) {
-
-
         super.onCreate(b);
         setContentView(R.layout.widget_example);
 
