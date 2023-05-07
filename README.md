@@ -1,4 +1,4 @@
-# Unit 3 - Designing the UI
+# Unit 4 - Android Activity
 
 The user interface is the point at which human users interact with a computer, website or application  
 The goal of effective UI is to make the user's experience easy and intuitive
@@ -7,18 +7,9 @@ The goal of effective UI is to make the user's experience easy and intuitive
 # Unit Coverage
 
 ```
-View hierarchy
-Explore more layout and view widgets
-Event handling
-Drawables
-```
-
-# Layout Types
-
-```
-LinearLayout
-RelativeLayout
-ConstraintLayout
-TableLayout
-AbsoluteLayout
+Activity Lifecycle
+Creating multiple activities
+Connecting activities with intents
+Passing data between activities
+Getting and setting data to/from layout files
 ```
