@@ -25,5 +25,9 @@
         <activity
             android:name=".LinearExample"
             android:exported="true" />
+
+        <activity
+            android:name=".AbsoluteExample"
+            android:exported="true" />
     </application>
 </manifest>
