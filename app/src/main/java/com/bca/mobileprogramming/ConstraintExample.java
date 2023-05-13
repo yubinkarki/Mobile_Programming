@@ -89,7 +89,7 @@ public class ConstraintExample extends Activity {
                 String name = fullNameInput.getText().toString();
                 String gender = "";
 
-                if (radioMale.isChecked()){
+                if (radioMale.isChecked()) {
                     gender = "Male";
                 } else {
                     gender = "Female";
