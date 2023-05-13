@@ -7,6 +7,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.RadioButton;
 import android.widget.Toast;
 import android.widget.ArrayAdapter;
 import android.widget.Spinner;
@@ -19,22 +20,29 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 public class ConstraintExample extends Activity {
     TextView headingText;
     Button navigateButton;
+    RadioButton radioMale, radioFemale;
+    Spinner countryList;
+    Button saveButton;
+    Button cancelButton;
+    EditText fullNameInput;
 
     @Override
     public void onCreate(Bundle b) {
         super.onCreate(b);
         setContentView(R.layout.widget_example);
 
-        String items[] = {"Choice 1", "Choice 2", "Choice 3", "Choice 4"};
-
-        Spinner spinner = findViewById(R.id.country_spinner);
-        Button saveButton = findViewById(R.id.save_button);
-        Button cancelButton = findViewById(R.id.cancel_button);
-        EditText fullNameInput = findViewById(R.id.full_name_input);
-        ConstraintLayout widgetExampleRoot = findViewById(R.id.widget_example_root);
-
-        headingText = findViewById(R.id.hello_text);
+        countryList = findViewById(R.id.country_spinner);
+        saveButton = findViewById(R.id.save_button);
+        cancelButton = findViewById(R.id.cancel_button);
+        fullNameInput = findViewById(R.id.full_name_input);
         navigateButton = findViewById(R.id.nav_button);
+        headingText = findViewById(R.id.hello_text);
+        radioMale = findViewById(R.id.gender_male);
+        radioFemale = findViewById(R.id.gender_female);
+
+        // String items[] = {"Choice 1", "Choice 2", "Choice 3", "Choice 4"};
+        //ConstraintLayout widgetExampleRoot = findViewById(R.id.widget_example_root);
+
 
         // Adding toast message on save button click.
         saveButton.setOnClickListener(new View.OnClickListener() {
@@ -48,20 +56,12 @@ public class ConstraintExample extends Activity {
             }
         });
 
-        // Adding snackbar on cancel button click.
-        cancelButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Snackbar snackbar = Snackbar.make(widgetExampleRoot, "Deleted", Snackbar.LENGTH_SHORT);
-                snackbar.show();
-            }
-        });
 
         // Passing data to 2nd activity.
         /*navigateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent i = new Intent(ConstraintExample.this, LinearExample.class);
+                Intent i = new Intent(ConstraintExample.this, AbsoluteExample.class);
 
                 i.putExtra("id", 1);
                 i.putExtra("name", "Thor");
@@ -73,17 +73,42 @@ public class ConstraintExample extends Activity {
         });*/
 
         // Getting data from 2nd activity.
-        navigateButton.setOnClickListener(new View.OnClickListener() {
+       /* navigateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(ConstraintExample.this, LinearExample.class);
 
                 startActivityForResult(i, 22);
             }
+        });*/
+
+        // Sending another data
+        navigateButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String name = fullNameInput.getText().toString();
+                String gender = "";
+
+                if (radioMale.isChecked()){
+                    gender = "Male";
+                } else {
+                    gender = "Female";
+                }
+
+                String country = countryList.getSelectedItem().toString();
+
+                Intent i = new Intent(ConstraintExample.this, AbsoluteExample.class);
+
+                i.putExtra("name", name);
+                i.putExtra("gender", gender);
+                i.putExtra("country", country);
+
+                startActivity(i);
+            }
         });
     }
 
-    @Override
+    /*@Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
@@ -93,7 +118,7 @@ public class ConstraintExample extends Activity {
             headingText.setText(message);
         }
     }
-
+*/
     @Override
     protected void onStart() {
         super.onStart();
