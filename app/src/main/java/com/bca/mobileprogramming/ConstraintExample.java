@@ -73,17 +73,17 @@ public class ConstraintExample extends Activity {
         });*/
 
         // Getting data from 2nd activity.
-       /* navigateButton.setOnClickListener(new View.OnClickListener() {
+        navigateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(ConstraintExample.this, LinearExample.class);
 
                 startActivityForResult(i, 22);
             }
-        });*/
+        });
 
         // Sending another data
-        navigateButton.setOnClickListener(new View.OnClickListener() {
+       /* navigateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 String name = fullNameInput.getText().toString();
@@ -105,10 +105,10 @@ public class ConstraintExample extends Activity {
 
                 startActivity(i);
             }
-        });
-    }
+        });*/
+    } // onCreate ends here.
 
-    /*@Override
+    @Override
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
@@ -118,7 +118,7 @@ public class ConstraintExample extends Activity {
             headingText.setText(message);
         }
     }
-*/
+
     @Override
     protected void onStart() {
         super.onStart();
