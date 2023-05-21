@@ -14,7 +14,7 @@
         android:theme="@style/Theme.MobileProgramming"
         tools:targetApi="31">
         <activity
-            android:name=".ConstraintExample"
+            android:name=".FragmentOneTwo"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
