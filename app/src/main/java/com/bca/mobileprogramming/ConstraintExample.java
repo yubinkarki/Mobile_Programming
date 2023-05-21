@@ -58,7 +58,7 @@ public class ConstraintExample extends Activity {
 
 
         // Passing data to 2nd activity.
-        /*navigateButton.setOnClickListener(new View.OnClickListener() {
+        navigateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(ConstraintExample.this, AbsoluteExample.class);
@@ -70,17 +70,17 @@ public class ConstraintExample extends Activity {
 
                 startActivity(i);
             }
-        });*/
+        });
 
         // Getting data from 2nd activity.
-        navigateButton.setOnClickListener(new View.OnClickListener() {
+        /*navigateButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent i = new Intent(ConstraintExample.this, LinearExample.class);
 
                 startActivityForResult(i, 22);
             }
-        });
+        });*/
 
         // Sending another data
        /* navigateButton.setOnClickListener(new View.OnClickListener() {
@@ -112,10 +112,14 @@ public class ConstraintExample extends Activity {
     protected void onActivityResult(int requestCode, int resultCode, Intent data) {
         super.onActivityResult(requestCode, resultCode, data);
 
-        if (requestCode == 22) {
-            String message = data.getStringExtra("message");
+        System.out.println("Result code: " + resultCode);
 
-            headingText.setText(message);
+        if (resultCode == 22) {
+            if (requestCode == 22) {
+                String message = data.getStringExtra("message");
+
+                headingText.setText(message);
+            }
         }
     }
 
