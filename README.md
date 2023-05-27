@@ -1,7 +1,7 @@
 # Unit 4 - Android Activity
 
-The user interface is the point at which human users interact with a computer, website or application  
-The goal of effective UI is to make the user's experience easy and intuitive
+Every instance of an Activity has a lifecycle 
+An activity transitions between three possible states: running, paused and stopped
 
 
 # Unit Coverage
