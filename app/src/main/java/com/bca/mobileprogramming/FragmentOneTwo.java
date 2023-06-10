@@ -4,7 +4,9 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.util.Log;
 
-public class FragmentOneTwo extends Activity {
+import androidx.fragment.app.FragmentActivity;
+
+public class FragmentOneTwo extends FragmentActivity {
     @Override
     protected void onCreate(Bundle b) {
         try {

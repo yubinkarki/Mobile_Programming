@@ -17,7 +17,7 @@ public class CalculatorFragment extends Fragment {
     TextView resultText;
 
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle b) {
-        View view = inflater.inflate(R.layout.caculator_fragment, container, false);
+        View view = inflater.inflate(R.layout.calculator_fragment, container, false);
 
         firstNumber = view.findViewById(R.id.first_number_input);
         secondNumber = view.findViewById(R.id.second_number_input);
