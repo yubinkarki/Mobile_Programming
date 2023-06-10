@@ -5,19 +5,29 @@
     android:orientation="vertical"
     android:padding="20dp">
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter first number:"
+        android:textSize="20sp" />
+
     <EditText
         android:id="@+id/first_number_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
-        android:hint="Enter first number" />
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter second number:"
+        android:textSize="20sp" />
 
     <EditText
         android:id="@+id/second_number_input"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:inputType="number"
-        android:hint="Enter second number" />
+        android:inputType="number" />
 
     <Button
         android:id="@+id/calculate_button"

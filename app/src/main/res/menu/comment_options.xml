@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/services_option"
+        android:title="Services" />
+    <item
+        android:id="@+id/about_option"
+        android:title="About" />
+    <item
+        android:id="@+id/logout_option"
+        android:title="Log Out"
+        app:showAsAction="withText" />
+</menu>
