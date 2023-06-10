@@ -1,4 +1,4 @@
-# Unit 5 - UI Fragments, Menus and Dialogs
+# Unit 6 - ListView, GridView and RecyclerView
 
 Fragment is a part of an activity, also known as a sub-activity  
 It represents multiple screens inside one main activity
@@ -6,9 +6,7 @@ It represents multiple screens inside one main activity
 # Unit Coverage
 
 ```
-Fragments (Introduction, Lifecycle)
-Fragment Manager
-Difference between fragment and activity
-Menu and its types
-Alert Dialog
+ListView (Features and Practical)
+GridView (Features and Practical)
+RecyclerView (Features and Practical)
 ```
