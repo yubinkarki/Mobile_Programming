@@ -1,0 +1,95 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bca.mobileprogramming"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+8-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:6:5-67
+11-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:6:22-64
+12
+13    <permission
+13-->[androidx.core:core:1.9.0] C:\Users\yk\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+14        android:name="com.bca.mobileprogramming.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+14-->[androidx.core:core:1.9.0] C:\Users\yk\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+15        android:protectionLevel="signature" />
+15-->[androidx.core:core:1.9.0] C:\Users\yk\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+16
+17    <uses-permission android:name="com.bca.mobileprogramming.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+17-->[androidx.core:core:1.9.0] C:\Users\yk\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+17-->[androidx.core:core:1.9.0] C:\Users\yk\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+18
+19    <application
+20        android:allowBackup="true"
+20-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:9:9-35
+21        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+21-->[androidx.core:core:1.9.0] C:\Users\yk\.gradle\caches\transforms-3\9811bf6e0ea8002748e1a5d1e9eb40bd\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+22        android:dataExtractionRules="@xml/data_extraction_rules"
+22-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:10:9-65
+23        android:debuggable="true"
+24        android:extractNativeLibs="false"
+25        android:fullBackupContent="@xml/backup_rules"
+25-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:11:9-54
+26        android:icon="@drawable/app_icon"
+26-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:12:9-42
+27        android:label="@string/app_name"
+27-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:13:9-41
+28        android:networkSecurityConfig="@xml/network_security_config"
+28-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:14:9-69
+29        android:roundIcon="@mipmap/ic_launcher_round"
+29-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:15:9-54
+30        android:supportsRtl="true"
+30-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:16:9-35
+31        android:testOnly="true"
+32        android:theme="@style/Theme.MobileProgramming"
+32-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:17:9-55
+33        android:usesCleartextTraffic="true" >
+33-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:18:9-63
+34        <activity
+34-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:20:9-27:20
+35            android:name="com.bca.mobileprogramming.UserTableActionsMain"
+35-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:21:13-49
+36            android:exported="true" >
+36-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:22:13-36
+37            <intent-filter>
+37-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:23:13-26:29
+38                <action android:name="android.intent.action.MAIN" />
+38-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:24:17-69
+38-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:24:25-66
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:25:17-77
+40-->C:\Users\yk\Documents\AndroidStudioProjects\MobileProgramming\app\src\main\AndroidManifest.xml:25:27-74
+41            </intent-filter>
+42        </activity>
+43
+44        <provider
+44-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yk\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+45            android:name="androidx.startup.InitializationProvider"
+45-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yk\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+46            android:authorities="com.bca.mobileprogramming.androidx-startup"
+46-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yk\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+47            android:exported="false" >
+47-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yk\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+48            <meta-data
+48-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yk\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+49-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yk\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+50                android:value="androidx.startup" />
+50-->[androidx.emoji2:emoji2:1.2.0] C:\Users\yk\.gradle\caches\transforms-3\c03fa7bc00a04a375204b573f0966d9f\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+51            <meta-data
+51-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yk\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+52-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yk\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+53                android:value="androidx.startup" />
+53-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\yk\.gradle\caches\transforms-3\0ce9e5f033589fdf0ab757f82f7808ec\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+54        </provider>
+55    </application>
+56
+57</manifest>

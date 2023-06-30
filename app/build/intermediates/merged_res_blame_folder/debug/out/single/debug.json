@@ -1,0 +1,106 @@
+[
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\layout_list_view_items.xml.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\layout\\list_view_items.xml"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\layout_user_details.xml.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\layout\\user_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\layout_list_main.xml.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\layout\\list_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\drawable-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\xml_data_extraction_rules.xml.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\xml\\data_extraction_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\drawable_ic_launcher_background.xml.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\xml_backup_rules.xml.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\xml\\backup_rules.xml"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\drawable_oldphone.jpg.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\drawable\\oldphone.jpg"
+    },
+    {
+        "merged": "com.bca.mobileprogramming.app-merged_res-30:/layout_user_details.xml.flat",
+        "source": "com.bca.mobileprogramming.app-main-32:/layout/user_details.xml"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\drawable_rounded_input_field.xml.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\drawable\\rounded_input_field.xml"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\drawable_spinner_background.xml.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\drawable\\spinner_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\xml_network_security_config.xml.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\xml\\network_security_config.xml"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\drawable_app_icon.png.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\drawable\\app_icon.png"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\menu_comment_options.xml.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\menu\\comment_options.xml"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-merged_res-30:\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "C:\\Users\\yk\\.gradle\\daemon\\7.4\\com.bca.mobileprogramming.app-main-32:\\mipmap-hdpi\\ic_launcher_round.webp"
+    }
+]
