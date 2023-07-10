@@ -17,3 +17,5 @@
 .cxx
 local.properties
 /gradlew
+/app/release
+*.jks
