@@ -1,12 +1,13 @@
-# Unit 6 - ListView, GridView and RecyclerView
+# Unit 7 - Advanced Android Concepts
 
-Fragment is a part of an activity, also known as a sub-activity  
-It represents multiple screens inside one main activity
+SQLite is an open-source relational database  
+It supports all database features despite it's size
 
 # Unit Coverage
 
 ```
-ListView (Features and Practical)
-GridView (Features and Practical)
-RecyclerView (Features and Practical)
+SQLite & CRUD Operations
+About APIs
+Integrating Google Maps API
+Publishing app to Play Store
 ```
